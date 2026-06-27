@@ -152,7 +152,6 @@ const StorageVolumeForm: FC<Props> = ({ formik, section, setSection }) => {
               clusterMembers={clusterMembers}
               pools={pools}
               settings={settings}
-              showClusterMember={showClusterMember}
               project={project}
             />
           )}

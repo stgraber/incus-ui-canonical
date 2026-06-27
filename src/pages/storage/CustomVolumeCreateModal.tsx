@@ -142,7 +142,6 @@ const CustomVolumeCreateModal: FC<Props> = ({
               ? ([{ server_name: instanceLocation }] as LxdClusterMember[])
               : []
           }
-          showClusterMember={false}
           project={project}
         />
       </div>
